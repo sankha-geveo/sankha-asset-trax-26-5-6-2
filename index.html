@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sankha's Assets</title>
+    <script type="module">
+      import { Buffer } from 'buffer';
+      import process from 'process';
+      window.Buffer = Buffer;
+      window.process = process;
+    </script>
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+  </head>
+  <body class="bg-gray-50">
+    <div id="root"></div>
+    <script src="https://cdn.jsdelivr.net/npm/hotpocket-js-client@0.5.3/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/libsodium-wrappers/0.5.4/sodium.min.js" integrity="sha512-oRfU7aik4u7f0dPAKgOyA4+bb/YRGfAaD5RA4Z3Mb2ycPcGDs+k8qAnDNd7ouruoqlIHSuGVaTTlEs91Gvd37A==" crossorigin="anonymous"></script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
